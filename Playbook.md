@@ -159,18 +159,18 @@ Sviluppare lezioni specifiche per migliorare le difese.
 
 #### Immediate Steps
 
-Identify and report phishing attempts through employee alerts or automated tools.
-Quarantine suspicious emails to prevent further access.
-Block URLs or IPs linked to phishing campaigns.
-Incident Investigation
+- Identify and report phishing attempts through employee alerts or automated tools.
+- Quarantine suspicious emails to prevent further access.
+- Block URLs or IPs linked to phishing campaigns.
+- Incident Investigation
 
-Analyze affected accounts and determine if credentials were compromised.
-Monitor for unauthorized activities or lateral movement.
-Recovery and Awareness Training
+- Analyze affected accounts and determine if credentials were compromised.
+- Monitor for unauthorized activities or lateral movement.
+- Recovery and Awareness Training
 
-Reset compromised credentials and enhance authentication mechanisms.
-Provide targeted training to affected users to reinforce phishing awareness.
-Update email filters and security protocols based on the attack’s characteristics.
+- Reset compromised credentials and enhance authentication mechanisms.
+- Provide targeted training to affected users to reinforce phishing awareness.
+- Update email filters and security protocols based on the attack’s characteristics.
 
 
 
@@ -178,37 +178,37 @@ Update email filters and security protocols based on the attack’s characterist
 
 #### Passaggi Immediati
 
-Identificare e segnalare i tentativi di phishing tramite alert dei dipendenti o strumenti automatizzati.
-Mettere in quarantena le email sospette per prevenirne l’accesso.
-Bloccare URL o IP associati alle campagne di phishing.
-Indagine sull’Incidente
+- Identificare e segnalare i tentativi di phishing tramite alert dei dipendenti o strumenti automatizzati.
+- Mettere in quarantena le email sospette per prevenirne l’accesso.
+- Bloccare URL o IP associati alle campagne di phishing.
+- Indagine sull’Incidente
 
-Analizzare gli account colpiti per verificare l’eventuale compromissione delle credenziali.
-Monitorare attività non autorizzate o movimenti laterali.
-Recupero e Formazione
+- Analizzare gli account colpiti per verificare l’eventuale compromissione delle credenziali.
+- Monitorare attività non autorizzate o movimenti laterali.
+- Recupero e Formazione
 
-Reimpostare le credenziali compromesse e migliorare i meccanismi di autenticazione.
-Fornire formazione mirata agli utenti coinvolti per rafforzare la consapevolezza sul phishing.
-Aggiornare i filtri email e i protocolli di sicurezza in base alle caratteristiche dell’attacco.
+- Reimpostare le credenziali compromesse e migliorare i meccanismi di autenticazione.
+- Fornire formazione mirata agli utenti coinvolti per rafforzare la consapevolezza sul phishing.
+- Aggiornare i filtri email e i protocolli di sicurezza in base alle caratteristiche dell’attacco.
 
 
 #### 2.5 Malware Outbreak Response
 
 #### Immediate Containment Actions
 
-Isolate affected devices and disconnect them from the network.
-Perform an initial assessment to identify the type and source of malware.
-Notify the IT security team and activate the malware response protocol.
-Eradication Steps
+- Isolate affected devices and disconnect them from the network.
+- Perform an initial assessment to identify the type and source of malware.
+- Notify the IT security team and activate the malware response protocol.
+- Eradication Steps
 
-Use specialized antivirus or anti-malware tools to remove infections.
-Patch vulnerabilities that allowed the malware to infiltrate the system.
-Monitor for signs of reinfection or persistence mechanisms.
-Recovery and Future Prevention
+- Use specialized antivirus or anti-malware tools to remove infections.
+- Patch vulnerabilities that allowed the malware to infiltrate the system.
+- Monitor for signs of reinfection or persistence mechanisms.
+- Recovery and Future Prevention
 
-Restore systems from verified clean backups.
-Implement advanced threat detection solutions such as Endpoint Detection and Response (EDR).
-Educate employees on avoiding risky behaviors that may lead to malware infections.
+- Restore systems from verified clean backups.
+- Implement advanced threat detection solutions such as Endpoint Detection and Response (EDR).
+- Educate employees on avoiding risky behaviors that may lead to malware infections.
 
 
 
@@ -216,19 +216,19 @@ Educate employees on avoiding risky behaviors that may lead to malware infection
 
 #### Azioni di Contenimento Immediato
 
-Isolare i dispositivi colpiti e disconnetterli dalla rete.
-Effettuare una valutazione iniziale per identificare il tipo e l’origine del malware.
-Informare il team di sicurezza IT e attivare il protocollo di risposta al malware.
-Fasi di Eliminazione
+- Isolare i dispositivi colpiti e disconnetterli dalla rete.
+- Effettuare una valutazione iniziale per identificare il tipo e l’origine del malware.
+- Informare il team di sicurezza IT e attivare il protocollo di risposta al malware.
+- Fasi di Eliminazione
 
-Utilizzare strumenti antivirus o anti-malware specializzati per rimuovere le infezioni.
-Correggere le vulnerabilità che hanno permesso al malware di infiltrarsi nel sistema.
-Monitorare eventuali segnali di reinfezione o meccanismi di persistenza.
-Recupero e Prevenzione Futura
+- Utilizzare strumenti antivirus o anti-malware specializzati per rimuovere le infezioni.
+- Correggere le vulnerabilità che hanno permesso al malware di infiltrarsi nel sistema.
+- Monitorare eventuali segnali di reinfezione o meccanismi di persistenza.
+- Recupero e Prevenzione Futura
 
-Ripristinare i sistemi da backup verificati e privi di malware.
-Implementare soluzioni avanzate di rilevamento delle minacce come Endpoint Detection and Response (EDR).
-Educare i dipendenti a evitare comportamenti rischiosi che possano causare infezioni da malware.
+- Ripristinare i sistemi da backup verificati e privi di malware.
+- Implementare soluzioni avanzate di rilevamento delle minacce come Endpoint Detection and Response (EDR).
+- Educare i dipendenti a evitare comportamenti rischiosi che possano causare infezioni da malware.
 
 
 
@@ -239,13 +239,13 @@ Educare i dipendenti a evitare comportamenti rischiosi che possano causare infez
 
 Steps:
 
-Detect ransomware activity → Employee reports or monitoring system alerts.
-Isolate infected system → Disconnect affected devices from the network.
-Assess impact → Determine encrypted data, affected systems, and potential spread.
-Yes, critical data compromised → Notify stakeholders and involve external experts.
-No, minimal impact → Proceed with internal recovery steps.
-Decide on recovery strategy → Restore from backups or rebuild affected systems.
-Post-incident review → Identify vulnerabilities and improve defenses.
+1. Detect ransomware activity → Employee reports or monitoring system alerts.
+2. Isolate infected system → Disconnect affected devices from the network.
+3. Assess impact → Determine encrypted data, affected systems, and potential spread.
+4. Yes, critical data compromised → Notify stakeholders and involve external experts.
+5. No, minimal impact → Proceed with internal recovery steps.
+6. Decide on recovery strategy → Restore from backups or rebuild affected systems.
+7. Post-incident review → Identify vulnerabilities and improve defenses.
 
 
 
@@ -253,25 +253,25 @@ Post-incident review → Identify vulnerabilities and improve defenses.
 
 Passaggi:
 
-Rilevare attività ransomware → Segnalazioni dei dipendenti o alert dei sistemi di monitoraggio.
-Isolare il sistema infetto → Disconnettere i dispositivi colpiti dalla rete.
-Valutare l'impatto → Determinare i dati crittografati, i sistemi coinvolti e l'eventuale diffusione.
-Sì, dati critici compromessi → Notificare gli stakeholder e coinvolgere esperti esterni.
-No, impatto minimo → Procedere con i passaggi di recupero interni.
-Decidere la strategia di recupero → Ripristinare dai backup o ricostruire i sistemi colpiti.
-Revisione post-incidente → Identificare le vulnerabilità e migliorare le difese.
+1. Rilevare attività ransomware → Segnalazioni dei dipendenti o alert dei sistemi di monitoraggio.
+2. Isolare il sistema infetto → Disconnettere i dispositivi colpiti dalla rete.
+3. Valutare l'impatto → Determinare i dati crittografati, i sistemi coinvolti e l'eventuale diffusione.
+4. Sì, dati critici compromessi → Notificare gli stakeholder e coinvolgere esperti esterni.
+5. No, impatto minimo → Procedere con i passaggi di recupero interni.
+6. Decidere la strategia di recupero → Ripristinare dai backup o ricostruire i sistemi colpiti.
+7. Revisione post-incidente → Identificare le vulnerabilità e migliorare le difese.
 
 
 #### 3.2 Data Breach Response Flowchart
 
 Steps:
 
-Detect breach → System alert or external notification (e.g., regulators).
-Identify scope → Determine affected data and systems.
-Secure environment → Block unauthorized access and isolate compromised systems.
-Notify authorities and stakeholders → Fulfill regulatory obligations and inform impacted individuals.
-Recover systems → Patch vulnerabilities, remove threats, and validate data integrity.
-Review incident → Conduct a root cause analysis and enhance policies.
+1. Detect breach → System alert or external notification (e.g., regulators).
+2. Identify scope → Determine affected data and systems.
+3. Secure environment → Block unauthorized access and isolate compromised systems.
+4. Notify authorities and stakeholders → Fulfill regulatory obligations and inform impacted individuals.
+5. Recover systems → Patch vulnerabilities, remove threats, and validate data integrity.
+6. Review incident → Conduct a root cause analysis and enhance policies.
 
 
 
@@ -279,24 +279,24 @@ Review incident → Conduct a root cause analysis and enhance policies.
 
 Passaggi:
 
-Rilevare la violazione → Alert del sistema o notifica esterna (ad esempio autorità).
-Identificare l’ambito → Determinare i dati e i sistemi colpiti.
-Mettere in sicurezza l'ambiente → Bloccare accessi non autorizzati e isolare i sistemi compromessi.
-Notificare autorità e stakeholder → Soddisfare gli obblighi normativi e informare gli individui impattati.
-Recuperare i sistemi → Correggere le vulnerabilità, rimuovere le minacce e convalidare l’integrità dei dati.
-Revisionare l'incidente → Eseguire un'analisi delle cause e migliorare le politiche.
+1. Rilevare la violazione → Alert del sistema o notifica esterna (ad esempio autorità).
+2. Identificare l’ambito → Determinare i dati e i sistemi colpiti.
+3. Mettere in sicurezza l'ambiente → Bloccare accessi non autorizzati e isolare i sistemi compromessi.
+4. Notificare autorità e stakeholder → Soddisfare gli obblighi normativi e informare gli individui impattati.
+5. Recuperare i sistemi → Correggere le vulnerabilità, rimuovere le minacce e convalidare l’integrità dei dati.
+6. Revisionare l'incidente → Eseguire un'analisi delle cause e migliorare le politiche.
 
 
 #### 3.3 DDoS Attack Response Flowchart
 
 Steps:
 
-Detect abnormal traffic → Network monitoring tools identify unusual patterns.
-Activate DDoS protection → Engage CDN, rate-limiting, or scrubbing services.
-Identify attack source → Trace and block malicious IPs or ranges.
-Scale resources if needed → Temporarily increase capacity to absorb the attack.
-Monitor and analyze traffic → Ensure normal operations are restored.
-Post-incident analysis → Refine defenses and update incident response plans.
+1. Detect abnormal traffic → Network monitoring tools identify unusual patterns.
+2. Activate DDoS protection → Engage CDN, rate-limiting, or scrubbing services.
+3. Identify attack source → Trace and block malicious IPs or ranges.
+4. Scale resources if needed → Temporarily increase capacity to absorb the attack.
+5. Monitor and analyze traffic → Ensure normal operations are restored.
+6. Post-incident analysis → Refine defenses and update incident response plans.
 
 
 
@@ -304,26 +304,26 @@ Post-incident analysis → Refine defenses and update incident response plans.
 
 Passaggi:
 
-Rilevare traffico anomalo → Gli strumenti di monitoraggio della rete identificano schemi insoliti.
-Attivare la protezione DDoS → Utilizzare CDN, limitazione della velocità o servizi di scrubbing.
-Identificare la fonte dell'attacco → Tracciare e bloccare IP o range malevoli.
-Aumentare le risorse se necessario → Incrementare temporaneamente la capacità per assorbire l’attacco.
-Monitorare e analizzare il traffico → Garantire il ripristino delle operazioni normali.
-Analisi post-incidente → Rafforzare le difese e aggiornare i piani di risposta agli incidenti.
+1. Rilevare traffico anomalo → Gli strumenti di monitoraggio della rete identificano schemi insoliti.
+2. Attivare la protezione DDoS → Utilizzare CDN, limitazione della velocità o servizi di scrubbing.
+3. Identificare la fonte dell'attacco → Tracciare e bloccare IP o range malevoli.
+4. Aumentare le risorse se necessario → Incrementare temporaneamente la capacità per assorbire l’attacco.
+5. Monitorare e analizzare il traffico → Garantire il ripristino delle operazioni normali.
+6. Analisi post-incidente → Rafforzare le difese e aggiornare i piani di risposta agli incidenti.
 
 
 #### 3.4 Phishing Incident Response Flowchart
 
 Steps:
 
-Detect phishing attempt → Employee reports or email filtering system identifies suspicious activity.
-Quarantine emails → Prevent further distribution of malicious content.
-Analyze scope → Identify affected users, accounts, or systems.
-Take corrective actions:
-Credentials compromised → Force password resets and enable multi-factor authentication (MFA).
-No compromise detected → Reinforce security awareness with targeted training.
-Update defenses → Adjust email filtering rules and blacklist phishing sources.
-Review and document → Compile a report and evaluate response efficiency.
+1. Detect phishing attempt → Employee reports or email filtering system identifies suspicious activity.
+2. Quarantine emails → Prevent further distribution of malicious content.
+3. Analyze scope → Identify affected users, accounts, or systems.
+4. Take corrective actions:
+5. Credentials compromised → Force password resets and enable multi-factor authentication (MFA).
+6. No compromise detected → Reinforce security awareness with targeted training.
+7. Update defenses → Adjust email filtering rules and blacklist phishing sources.
+8. Review and document → Compile a report and evaluate response efficiency.
 
 
 
@@ -331,27 +331,27 @@ Review and document → Compile a report and evaluate response efficiency.
 
 Passaggi:
 
-Rilevare tentativi di phishing → Segnalazioni dei dipendenti o identificazione da parte di sistemi di filtro email.
-Mettere in quarantena le email → Impedire l’ulteriore diffusione di contenuti dannosi.
-Analizzare l’ambito → Identificare utenti, account o sistemi coinvolti.
-Adottare azioni correttive:
-Credenziali compromesse → Forzare la reimpostazione delle password e abilitare l’autenticazione a più fattori (MFA).
-Nessuna compromissione rilevata → Rafforzare la consapevolezza sulla sicurezza con formazione mirata.
-Aggiornare le difese → Modificare le regole dei filtri email e inserire nella blacklist le fonti di phishing.
-Revisionare e documentare → Compilare un report e valutare l’efficacia della risposta.
+1. Rilevare tentativi di phishing → Segnalazioni dei dipendenti o identificazione da parte di sistemi di filtro email.
+2. Mettere in quarantena le email → Impedire l’ulteriore diffusione di contenuti dannosi.
+3. Analizzare l’ambito → Identificare utenti, account o sistemi coinvolti.
+4. Adottare azioni correttive:
+5. Credenziali compromesse → Forzare la reimpostazione delle password e abilitare l’autenticazione a più fattori (MFA).
+6. Nessuna compromissione rilevata → Rafforzare la consapevolezza sulla sicurezza con formazione mirata.
+7. Aggiornare le difese → Modificare le regole dei filtri email e inserire nella blacklist le fonti di phishing.
+8. Revisionare e documentare → Compilare un report e valutare l’efficacia della risposta.
 
 
 #### 3.5 Malware Outbreak Response Flowchart
 
 Steps:
 
-Detect malware activity → Alerts from antivirus or endpoint detection systems.
-Isolate affected systems → Disconnect compromised devices from the network.
-Analyze malware → Identify its type, source, and spread potential.
-Contain infection → Remove malware using specialized tools and disable infected accounts or devices.
-Remediate vulnerabilities → Patch exploited weaknesses and ensure systems are secure.
-Restore systems → Reinstall clean backups and verify integrity.
-Post-incident improvements → Strengthen policies, update threat intelligence, and train staff.
+1. Detect malware activity → Alerts from antivirus or endpoint detection systems.
+2. Isolate affected systems → Disconnect compromised devices from the network.
+3. Analyze malware → Identify its type, source, and spread potential.
+4. Contain infection → Remove malware using specialized tools and disable infected accounts or devices.
+5. Remediate vulnerabilities → Patch exploited weaknesses and ensure systems are secure.
+6. Restore systems → Reinstall clean backups and verify integrity.
+7. Post-incident improvements → Strengthen policies, update threat intelligence, and train staff.
 
 
 
@@ -359,13 +359,13 @@ Post-incident improvements → Strengthen policies, update threat intelligence, 
 
 Passaggi:
 
-Rilevare attività malware → Alert da sistemi antivirus o di rilevamento endpoint.
-Isolare i sistemi colpiti → Disconnettere i dispositivi compromessi dalla rete.
-Analizzare il malware → Identificare il tipo, la fonte e il potenziale di diffusione.
-Contenere l’infezione → Rimuovere il malware con strumenti specializzati e disabilitare account o dispositivi infetti.
-Rimediare alle vulnerabilità → Correggere le debolezze sfruttate e garantire la sicurezza dei sistemi.
-Ripristinare i sistemi → Reinstallare backup puliti e verificare l’integrità.
-Miglioramenti post-incidente → Rafforzare le politiche, aggiornare l’intelligence sulle minacce e formare il personale.
+1. Rilevare attività malware → Alert da sistemi antivirus o di rilevamento endpoint.
+2. Isolare i sistemi colpiti → Disconnettere i dispositivi compromessi dalla rete.
+3. Analizzare il malware → Identificare il tipo, la fonte e il potenziale di diffusione.
+4. Contenere l’infezione → Rimuovere il malware con strumenti specializzati e disabilitare account o dispositivi infetti.
+5. Rimediare alle vulnerabilità → Correggere le debolezze sfruttate e garantire la sicurezza dei sistemi.
+6. Ripristinare i sistemi → Reinstallare backup puliti e verificare l’integrità.
+7. Miglioramenti post-incidente → Rafforzare le politiche, aggiornare l’intelligence sulle minacce e formare il personale.
 
 
 
