@@ -1,0 +1,19 @@
+{%- assign lang = include.lang -%}
+<nav class="site-nav" aria-label="{% if lang == 'it' %}Navigazione{% else %}Navigation{% endif %}">
+  <a class="btn" href="{{ '/' | relative_url }}">Home</a>
+  {%- if page.url contains "/it/" %}
+  <a class="btn" href="{{ '/it/' | relative_url }}">Introduzione</a>
+  <a class="btn" href="{{ '/it/playbooks/' | relative_url }}">Playbook</a>
+  <a class="btn" href="{{ '/it/templates/' | relative_url }}">Modelli</a>
+  <a class="btn" href="{{ page.url | replace_first: '/it/', '/en/' | relative_url }}" hreflang="en">English</a>
+  {%- elsif page.url contains "/en/" %}
+  <a class="btn" href="{{ '/en/' | relative_url }}">Introduction</a>
+  <a class="btn" href="{{ '/en/playbooks/' | relative_url }}">Playbooks</a>
+  <a class="btn" href="{{ '/en/templates/' | relative_url }}">Templates</a>
+  <a class="btn" href="{{ page.url | replace_first: '/en/', '/it/' | relative_url }}" hreflang="it">Italiano</a>
+  {%- else %}
+  <a class="btn" href="{{ '/en/' | relative_url }}" hreflang="en">English</a>
+  <a class="btn" href="{{ '/it/' | relative_url }}" hreflang="it">Italiano</a>
+  {%- endif %}
+  <a class="btn" href="https://github.com/Kashim0-afk/Incident-Response-Playbook-Strategies-for-Effective-Cybersecurity-Threat-Mitigation">GitHub</a>
+</nav>

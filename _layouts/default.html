@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{%- assign lang = page.lang | default: site.lang | default: "en" -%}
+<html lang="{{ lang }}">
+  <head>
+    <meta charset="UTF-8">
+{% seo %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">{% if lang == "it" %}Vai al contenuto{% else %}Skip to the content{% endif %}</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.title | default: site.title }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
+      {% include nav.html lang=lang %}
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        <span class="site-footer-owner">
+          {% if lang == "it" %}Documentazione a cura di{% else %}Maintained by{% endif %}
+          <a href="https://github.com/Kashim0-afk">Matteo Zordan</a> · MIT License
+        </span>
+        <span class="site-footer-credits">
+          {% if lang == "it" %}Materiale di studio: non sostituisce il piano di risposta della tua organizzazione né una consulenza legale.{% else %}Study material: it does not replace your organisation's incident response plan or legal advice.{% endif %}
+        </span>
+      </footer>
+    </main>
+  </body>
+</html>

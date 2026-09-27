@@ -1,0 +1,49 @@
+title: Incident Response Playbooks
+description: NIST SP 800-61r3 / CSF 2.0 · MITRE ATT&CK · GDPR / NIS2 (IT)
+author: Matteo Zordan
+lang: en
+theme: jekyll-theme-cayman
+
+# All plugins below are on the GitHub Pages allowlist and enabled by default there;
+# they are listed so that a local `jekyll build` behaves the same way.
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+  - jekyll-default-layout
+  - jekyll-readme-index
+  - jekyll-seo-tag
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+relative_links:
+  enabled: true
+  collections: false
+
+titles_from_headings:
+  enabled: true
+  strip_title: true
+  collections: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: "en"
+    values:
+      lang: en
+  - scope:
+      path: "it"
+    values:
+      lang: it
+
+exclude:
+  - scripts/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

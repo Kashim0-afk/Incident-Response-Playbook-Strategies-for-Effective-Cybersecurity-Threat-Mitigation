@@ -1,0 +1,27 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.site-nav {
+  margin-top: 1rem;
+}
+
+.main-content .mermaid {
+  margin: 1.5rem 0;
+  text-align: center;
+  overflow-x: auto;
+}
+
+.main-content ul.task-list {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.main-content .task-list-item-checkbox {
+  margin-right: 0.4rem;
+}
+
+.main-content blockquote {
+  border-left-color: #159957;
+}
